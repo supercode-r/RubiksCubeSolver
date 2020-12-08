@@ -2,45 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe69b7cb-fec3-410c-968f-950054fc06a4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/RubiksCube-TwophaseSolver.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/co_classidx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/co_rep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/co_sym" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conj_ud_edges" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coord.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cubie.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/defs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/enums.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/face.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fs_classidx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fs_rep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fs_sym" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gui.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/move_corners" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/move_d_edges" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/move_flip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/move_slice_sorted" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/move_twist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/move_u_edges" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/move_ud_edges" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moves.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/phase1_prun" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/phase2_cornsliceprun" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/phase2_edgemerge" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/phase2_prun" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pruning.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run_vision.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solver.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symmetries.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_params.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +33,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../qbr" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunManager" selected="Python.run_vision">
     <configuration name="client_gui2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -197,7 +164,7 @@
       <updated>1607379608936</updated>
       <workItem from="1607379614054" duration="7195000" />
       <workItem from="1607387237822" duration="3085000" />
-      <workItem from="1607391473220" duration="16156000" />
+      <workItem from="1607391473220" duration="16861000" />
     </task>
     <servers />
   </component>
@@ -209,7 +176,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
