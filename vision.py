@@ -286,7 +286,7 @@ def find_squares(bgrcap, n):
 def grab_colors():
     """Find the cube in the webcam picture and grab the colors of the facelets."""
     global cent, width, height, hsv, color_mask, white_mask
-    cap = cv2.VideoCapture(2)
+    cap = cv2.VideoCapture(0)
     _, bgrcap = cap.read()
     if bgrcap is None:
         print('Cannot connect to webcam!')
@@ -341,6 +341,7 @@ def grab_colors():
         # drawgrid(bgrcap, grid_N)
 
         # show the windows
+        # cv2.imwrite('color_filter_mask.jpg',cv2.resize(color_mask, (width // 2, height // 2)))
         # cv2.imshow('color_filter mask', cv2.resize(color_mask, (width // 2, height // 2)))
         # cv2.imshow('white_filter mask', cv2.resize(white_mask, (width // 2, height // 2)))
         # cv2.imshow('black_filter mask', cv2.resize(black_mask, (width // 2, height // 2)))
